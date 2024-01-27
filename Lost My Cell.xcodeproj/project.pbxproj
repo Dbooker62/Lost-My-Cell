@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F658F592B659E4900DD3678 /* Lost_My_CellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F658F582B659E4900DD3678 /* Lost_My_CellApp.swift */; };
+		3F658F5B2B659E4900DD3678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F658F5A2B659E4900DD3678 /* ContentView.swift */; };
+		3F658F5D2B659E4C00DD3678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F658F5C2B659E4C00DD3678 /* Assets.xcassets */; };
+		3F658F602B659E4C00DD3678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F658F5F2B659E4C00DD3678 /* Preview Assets.xcassets */; };
+		3F658F6A2B659E4C00DD3678 /* Lost_My_CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F658F692B659E4C00DD3678 /* Lost_My_CellTests.swift */; };
+		3F658F742B659E4C00DD3678 /* Lost_My_CellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F658F732B659E4C00DD3678 /* Lost_My_CellUITests.swift */; };
+		3F658F762B659E4C00DD3678 /* Lost_My_CellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F658F752B659E4C00DD3678 /* Lost_My_CellUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F658F662B659E4C00DD3678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F658F4D2B659E4900DD3678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F658F542B659E4900DD3678;
+			remoteInfo = "Lost My Cell";
+		};
+		3F658F702B659E4C00DD3678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F658F4D2B659E4900DD3678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F658F542B659E4900DD3678;
+			remoteInfo = "Lost My Cell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F658F552B659E4900DD3678 /* Lost My Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lost My Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F658F582B659E4900DD3678 /* Lost_My_CellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lost_My_CellApp.swift; sourceTree = "<group>"; };
+		3F658F5A2B659E4900DD3678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F658F5C2B659E4C00DD3678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F658F5F2B659E4C00DD3678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F658F652B659E4C00DD3678 /* Lost My CellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lost My CellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F658F692B659E4C00DD3678 /* Lost_My_CellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lost_My_CellTests.swift; sourceTree = "<group>"; };
+		3F658F6F2B659E4C00DD3678 /* Lost My CellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lost My CellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F658F732B659E4C00DD3678 /* Lost_My_CellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lost_My_CellUITests.swift; sourceTree = "<group>"; };
+		3F658F752B659E4C00DD3678 /* Lost_My_CellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lost_My_CellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F658F522B659E4900DD3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F658F622B659E4C00DD3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F658F6C2B659E4C00DD3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F658F4C2B659E4900DD3678 = {
+			isa = PBXGroup;
+			children = (
+				3F658F572B659E4900DD3678 /* Lost My Cell */,
+				3F658F682B659E4C00DD3678 /* Lost My CellTests */,
+				3F658F722B659E4C00DD3678 /* Lost My CellUITests */,
+				3F658F562B659E4900DD3678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F658F562B659E4900DD3678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F658F552B659E4900DD3678 /* Lost My Cell.app */,
+				3F658F652B659E4C00DD3678 /* Lost My CellTests.xctest */,
+				3F658F6F2B659E4C00DD3678 /* Lost My CellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F658F572B659E4900DD3678 /* Lost My Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F658F582B659E4900DD3678 /* Lost_My_CellApp.swift */,
+				3F658F5A2B659E4900DD3678 /* ContentView.swift */,
+				3F658F5C2B659E4C00DD3678 /* Assets.xcassets */,
+				3F658F5E2B659E4C00DD3678 /* Preview Content */,
+			);
+			path = "Lost My Cell";
+			sourceTree = "<group>";
+		};
+		3F658F5E2B659E4C00DD3678 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F658F5F2B659E4C00DD3678 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F658F682B659E4C00DD3678 /* Lost My CellTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F658F692B659E4C00DD3678 /* Lost_My_CellTests.swift */,
+			);
+			path = "Lost My CellTests";
+			sourceTree = "<group>";
+		};
+		3F658F722B659E4C00DD3678 /* Lost My CellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F658F732B659E4C00DD3678 /* Lost_My_CellUITests.swift */,
+				3F658F752B659E4C00DD3678 /* Lost_My_CellUITestsLaunchTests.swift */,
+			);
+			path = "Lost My CellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F658F542B659E4900DD3678 /* Lost My Cell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F658F792B659E4C00DD3678 /* Build configuration list for PBXNativeTarget "Lost My Cell" */;
+			buildPhases = (
+				3F658F512B659E4900DD3678 /* Sources */,
+				3F658F522B659E4900DD3678 /* Frameworks */,
+				3F658F532B659E4900DD3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lost My Cell";
+			productName = "Lost My Cell";
+			productReference = 3F658F552B659E4900DD3678 /* Lost My Cell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F658F642B659E4C00DD3678 /* Lost My CellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F658F7C2B659E4C00DD3678 /* Build configuration list for PBXNativeTarget "Lost My CellTests" */;
+			buildPhases = (
+				3F658F612B659E4C00DD3678 /* Sources */,
+				3F658F622B659E4C00DD3678 /* Frameworks */,
+				3F658F632B659E4C00DD3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F658F672B659E4C00DD3678 /* PBXTargetDependency */,
+			);
+			name = "Lost My CellTests";
+			productName = "Lost My CellTests";
+			productReference = 3F658F652B659E4C00DD3678 /* Lost My CellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F658F6E2B659E4C00DD3678 /* Lost My CellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F658F7F2B659E4C00DD3678 /* Build configuration list for PBXNativeTarget "Lost My CellUITests" */;
+			buildPhases = (
+				3F658F6B2B659E4C00DD3678 /* Sources */,
+				3F658F6C2B659E4C00DD3678 /* Frameworks */,
+				3F658F6D2B659E4C00DD3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F658F712B659E4C00DD3678 /* PBXTargetDependency */,
+			);
+			name = "Lost My CellUITests";
+			productName = "Lost My CellUITests";
+			productReference = 3F658F6F2B659E4C00DD3678 /* Lost My CellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F658F4D2B659E4900DD3678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3F658F542B659E4900DD3678 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3F658F642B659E4C00DD3678 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3F658F542B659E4900DD3678;
+					};
+					3F658F6E2B659E4C00DD3678 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3F658F542B659E4900DD3678;
+					};
+				};
+			};
+			buildConfigurationList = 3F658F502B659E4900DD3678 /* Build configuration list for PBXProject "Lost My Cell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F658F4C2B659E4900DD3678;
+			productRefGroup = 3F658F562B659E4900DD3678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F658F542B659E4900DD3678 /* Lost My Cell */,
+				3F658F642B659E4C00DD3678 /* Lost My CellTests */,
+				3F658F6E2B659E4C00DD3678 /* Lost My CellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F658F532B659E4900DD3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F658F602B659E4C00DD3678 /* Preview Assets.xcassets in Resources */,
+				3F658F5D2B659E4C00DD3678 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F658F632B659E4C00DD3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F658F6D2B659E4C00DD3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F658F512B659E4900DD3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F658F5B2B659E4900DD3678 /* ContentView.swift in Sources */,
+				3F658F592B659E4900DD3678 /* Lost_My_CellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F658F612B659E4C00DD3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F658F6A2B659E4C00DD3678 /* Lost_My_CellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F658F6B2B659E4C00DD3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F658F762B659E4C00DD3678 /* Lost_My_CellUITestsLaunchTests.swift in Sources */,
+				3F658F742B659E4C00DD3678 /* Lost_My_CellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F658F672B659E4C00DD3678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F658F542B659E4900DD3678 /* Lost My Cell */;
+			targetProxy = 3F658F662B659E4C00DD3678 /* PBXContainerItemProxy */;
+		};
+		3F658F712B659E4C00DD3678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F658F542B659E4900DD3678 /* Lost My Cell */;
+			targetProxy = 3F658F702B659E4C00DD3678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F658F772B659E4C00DD3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F658F782B659E4C00DD3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F658F7A2B659E4C00DD3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lost My Cell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Lost-My-Cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F658F7B2B659E4C00DD3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lost My Cell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Lost-My-Cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F658F7D2B659E4C00DD3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Lost-My-CellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lost My Cell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lost My Cell";
+			};
+			name = Debug;
+		};
+		3F658F7E2B659E4C00DD3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Lost-My-CellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lost My Cell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lost My Cell";
+			};
+			name = Release;
+		};
+		3F658F802B659E4C00DD3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Lost-My-CellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lost My Cell";
+			};
+			name = Debug;
+		};
+		3F658F812B659E4C00DD3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Lost-My-CellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lost My Cell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F658F502B659E4900DD3678 /* Build configuration list for PBXProject "Lost My Cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F658F772B659E4C00DD3678 /* Debug */,
+				3F658F782B659E4C00DD3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F658F792B659E4C00DD3678 /* Build configuration list for PBXNativeTarget "Lost My Cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F658F7A2B659E4C00DD3678 /* Debug */,
+				3F658F7B2B659E4C00DD3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F658F7C2B659E4C00DD3678 /* Build configuration list for PBXNativeTarget "Lost My CellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F658F7D2B659E4C00DD3678 /* Debug */,
+				3F658F7E2B659E4C00DD3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F658F7F2B659E4C00DD3678 /* Build configuration list for PBXNativeTarget "Lost My CellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F658F802B659E4C00DD3678 /* Debug */,
+				3F658F812B659E4C00DD3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F658F4D2B659E4900DD3678 /* Project object */;
+}
